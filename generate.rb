@@ -31,7 +31,6 @@ end
 
 # Dump to various formats
 {
-  # JSON
   'js' => JSON.pretty_generate(industries),
   'yaml' => industries.to_yaml,
   'rb' => industries.pretty_inspect
