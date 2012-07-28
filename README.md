@@ -7,4 +7,6 @@ The LinkedIn API does not appear to provide an endpoint for retrieving a complet
 
 `linkedin_industries.csv` is manually copy/pasted from [LinkedIn's official list](http://developer.linkedin.com/documents/industry-codes) and then exported to JSON, YAML, and Ruby source. Yeah, it'd be better to automate the data-scraping, but I'm led to believe that the content doesn't change all that often.
 
+For all you Rubyists out there, a [gem is also available](http://rubygems.org/gems/linkedin_industries).
+
 The most recent version of this list is [available on Github](https://github.com/jeffomatic/linkedin_industries). If you have updates, please send a pull request my way.
